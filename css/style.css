@@ -67,7 +67,7 @@ body {
 
 
 body .content_inner_bg {
-  background: #FFF url(../img/noise.png) repeat;
+  background: #efefef url(../img/noise.png) repeat;
 }
 
 body,
@@ -85,7 +85,16 @@ h6 {
 .pad {
   padding: 0px 68px;
 }
+.myskill_area,.book_area {
+  background: #efefef url(../img/noise.png) repeat;
 
+}
+
+
+.emp_area,.teaching_area,.contact_area{
+  background: #f8f8f8 url(../img/noise.png) repeat;
+
+}
 ul.profile li::before,
 .myskill_area ul li::before,
 .book_area ul li::before,
@@ -120,6 +129,7 @@ ul.skill_inner li {
 .main_title {
   text-align: center;
   padding: 20px 0px;
+ 
 }
 
 .main_title h2 {
@@ -595,7 +605,7 @@ ul.profile li {
 
 .skill_text h4 {
   font-family: "Raleway", sans-serif;
-  color: #009999;
+  color: #FF7400;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
@@ -749,9 +759,16 @@ ul.profile li {
 
 
 .education_area .education_inner_area .education_item h5 {
+  font-size: 13px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 16px;
+}
+
+.education_area .education_inner_area .education_item h6 {
   font-size: 14px;
-  color: #FF7400;  
-  font-family: "Raleway", sans-serif;  
+  color: #FF7400;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 
@@ -1627,7 +1644,7 @@ color: #333333
   margin-bottom: 4px;
   min-height: 5px;
 }
-.book_section,.teaching_section{
+.book_section,.teaching_section,.skill_section{
   margin-top: 35px;
 }
 
