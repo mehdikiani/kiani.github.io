@@ -93,6 +93,7 @@ h6 {
 
 .emp_area,.teaching_area,.contact_area{
   background: #f8f8f8 url(../img/noise.png) repeat;
+  width: 100%;
 
 }
 ul.profile li::before,
@@ -383,6 +384,7 @@ ul.profile li {
 .social_icon li {
   display: inline-block;
   margin-right: 20px;
+  margin-bottom: 8px;
 }
 
 .social_icon_block li {
@@ -789,139 +791,78 @@ ul.profile li {
 ============================================================================================ */
 /* employment Area css
 ============================================================================================ */
-.employment_area {
+.white_box_area {
   padding-bottom: 60px;
 }
 
-.employment_area .employment_inner_area {
-  position: relative;
-  overflow: hidden;
-}
 
-.employment_area .employment_inner_area:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 2px;
-  margin-left: -5px;
-  background: #FF7400;
-}
 
-.employment_area .employment_inner_area .employment_item {
-  width: 50%;
-  max-width: 420px;
-  background: #fff;
-  margin-bottom: 30px;
-  padding: 20px;
-  position: relative;
-  z-index: 2;
-}
-
-.employment_area .employment_inner_area .employment_item:before {
-  content: attr(data-line);
-  position: absolute;
-  right: -108px;
-  top: 0px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: 2px solid #FF7400;
-  text-align: center;
-  color: #fff;
-  line-height: 43px;
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background: #FF9339;
-}
-
-.employment_area .employment_inner_area .employment_item:after {
-  content: "";
-  background: #FF7400;
-  height: 2px;
-  position: absolute;
-  right: -78px;
-  top: 0px;
-  width: 119%;
-}
-
-.employment_area .employment_inner_area .employment_item:nth-child(even) {
-  float: right;
-}
-
-.employment_area .employment_inner_area .employment_item:nth-child(even):before {
-  right: auto;
-  left: -108px;
-}
-
-.employment_area .employment_inner_area .employment_item:nth-child(even):after {
-  left: -78px;
-}
-
-.employment_area .employment_inner_area .employment_item:nth-child(odd) {
-  float: left;
-}
-
-.employment_area .employment_inner_area .employment_item:nth-child(2) {
-  margin-top: 108px;
-}
-
-.employment_area .employment_inner_area .employment_item:last-child {
-  margin-bottom: 0px;
-}
-
-.employment_area .employment_inner_area .employment_item h3 {
+.white_box_area h3 {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   color: #009999;
   padding-bottom: 16px;
 }
 
-.employment_area .employment_inner_area .employment_item h4 {
+.white_box_area h4 {
   font-size: 13px;
   font-family: "Raleway", sans-serif;
   color: #333333;
 }
 
-.employment_area .employment_inner_area .employment_item h5 {
+.white_box_area  h5 {
   font-size: 13px;
   color: #333333;
   font-family: "Raleway", sans-serif;
   padding-bottom: 16px;
 }
 
-.employment_area .employment_inner_area .employment_item h6 {
+.white_box_area h6 {
   font-size: 14px;
   color: #FF7400;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 
-.employment_area .employment_inner_area .employment_item p {
+.white_box_area  p {
   text-align: justify;
 }
 
-.employment_area .employment_inner_area .employment_item .role {
+.white_box_area .role {
   color: #009999;
   font-weight: bold;
 }
 
+.white_box_area .white_box_item_container {
+  padding: 16px;
 
+}
+.white_box_area .white_box_item {
+  background-color: #fff;
+margin-bottom: 30px !important;
+padding-top: 16px;
+padding-left: 8px;
+padding-right: 8px;
+padding-bottom: 16px;
+border: 8px dotted #c2c0c0;
 
-
-.employment_area .employment_inner_area .employment_item p {
-  font-size: 13px;
-  line-height: 24px;
-  font-family: "Raleway", sans-serif;
-  color: #666666;
-  font-weight: 400;
-  padding-top: 12px;
+}
+.white_box_area .white_box_right_section {
+  margin-top: 40px;
+}
+.white_box_area .white_box_no {
+  width: 40px;
+  height: 40px;
+  background-color: #FF7400;
+  border: 3px solid #009999;
+  color: #fff;
+  font-size: 20pt;
+  line-height: 25pt;
+  margin: -40px auto 10px auto;
+  font-weight: bold;
 }
 
-/* End employment Area css
+/* End white Area css
 
 ============================================================================================ */
 /* Service Area css
